@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "unocss": "^0.60.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
