@@ -5,8 +5,7 @@ const value1 = ref();
 
 <template>
   <div>
-    开始项目
-    <a-date-picker v-model:value="value1" />
+    <RouterView />
   </div>
 </template>
 
