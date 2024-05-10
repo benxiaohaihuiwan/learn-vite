@@ -4,7 +4,13 @@
     "useDefineForClassFields": true,
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "types": ["vite/client"],
+    "types": ["vite/client"],  //声明文件包
+    "baseUrl": ".",  //解析非相对模块的基地址
+    "declaration": false, //生成声明文件
+    "paths": { //路径映射，相对于baseUrl
+      "@/*": ["src/*"],
+      "#/*": ["types/*"]
+    },
     "skipLibCheck": true,
 
     /* Bundler mode */
